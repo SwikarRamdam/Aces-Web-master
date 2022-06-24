@@ -10,12 +10,7 @@ body{
     /* min-height: 100vh; */
     width: 100%;
     overflow-x:hidden ;
-    /* overflow:hidden ; */
 
-    /* background-image: url('/pic/bg.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; */
 }
 
 html{
@@ -45,6 +40,8 @@ nav{
     position: sticky;
     top: 0;
     border-bottom: 2px solid #F4F5FF;
+    overflow: hidden;
+
     /* position: fixed; */
     /* separates logo and links */
 }
@@ -87,6 +84,7 @@ nav ul li a{
     font-size: 1.9rem;
     font-weight: bold;
     letter-spacing: 1px;
+    padding: 5px;
 }
  
 nav ul li a:hover{
@@ -149,7 +147,6 @@ section{
     font-size: 2rem;
     text-align: center;
     align-items: center;
-    justify-content: space-center;
     flex-direction: column;
     color: #F4F5FF;
     transition: all 0.3 ease;
