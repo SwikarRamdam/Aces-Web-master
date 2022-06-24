@@ -7,19 +7,19 @@
     font-family: 'Ubuntu', sans-serif;
 }
 body{
-    /* min-height: 100vh; */
     width: 100%;
     overflow-x:hidden ;
-    /* overflow:hidden ; */
     background-image: url('pic/bg.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    height: 100%
 }
 
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
+    height: 100%;
 }
 .main{
     height: 250vh;
@@ -40,7 +40,7 @@ nav{
     padding: 0rem 5rem 0rem 10rem;
     position: sticky;
     top: 0;
-    border-bottom: 2px solid #F4F5FF;
+    border-bottom: 1px solid #F4F5FF;
 }
 
 nav .ham i{
@@ -129,6 +129,21 @@ section{
     flex-direction: column;
     color: #F4F5FF;
     transition: all 0.3 ease;
+}
+.about-texts{
+    width: 76rem;
+    height: 22rem;
+    border-top: 2px solid #F4F5FF;
+    max-width: 95%;
+    margin: 15px auto;
+    display: flex;
+    font-size: 2rem;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(255,255,255);
+    transition: all 0.3 ease;
+    font-style: italic;
 }
 .logo2{
     width: 30rem;
