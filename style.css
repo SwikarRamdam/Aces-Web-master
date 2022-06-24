@@ -160,6 +160,18 @@ section{
   color: white;
   justify-content: space-between;
 }
+.rows {
+  display: flex;
+  padding: 20rem;
+  max-width: 50%;
+}
+.columns {
+  flex: 50%;
+  padding: 10px;
+  height: 15rem;
+  text-align: center;
+  color: white;
+}
 .row {
   display: flex;
 }
@@ -180,6 +192,9 @@ section{
 
     nav .ham i{
         display: block;
+    }
+    .logo2{
+        width: 20rem;
     }
     #click:checked ~ .ham i:before{
         content: "\f00d";;
