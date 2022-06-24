@@ -107,10 +107,11 @@ nav ul li a:hover{
     color: #F4F5FF;
 }
 section{
-    /* height: 100vh; */
+    /* height: 200vh; */
     width: 100%;
     /* border-bottom: 2px solid #F4F5FF; */
     display: flex;
+    margin-bottom: 15rem;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -130,6 +131,7 @@ section{
     color: #F4F5FF;
     transition: all 0.3 ease;
 }
+<<<<<<< HEAD
 .about-texts{
     width: 76rem;
     height: 22rem;
@@ -145,6 +147,9 @@ section{
     transition: all 0.3 ease;
     font-style: italic;
 }
+=======
+
+>>>>>>> 237dea0411c99c3bd0f25bce637749ccf11fa6a3
 .logo2{
     width: 30rem;
 }
@@ -155,7 +160,9 @@ section{
     flex-direction: column;
 
 }
-
+#testionial .about-text p{
+    letter-spacing: 2px;
+}
     footer{
 
     font-family: Ubuntu, sans-serif;
