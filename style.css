@@ -10,15 +10,11 @@ body{
     /* min-height: 100vh; */
     width: 100%;
     overflow-x:hidden ;
-<<<<<<< HEAD
-
-=======
     /* overflow:hidden ; */
     background-image: url('pic/bg.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
->>>>>>> 966a3ed9586e836c79275d7a5bab0256645303fc
 }
 
 html{
@@ -45,13 +41,6 @@ nav{
     position: sticky;
     top: 0;
     border-bottom: 2px solid #F4F5FF;
-<<<<<<< HEAD
-    overflow: hidden;
-
-    /* position: fixed; */
-    /* separates logo and links */
-=======
->>>>>>> 966a3ed9586e836c79275d7a5bab0256645303fc
 }
 
 nav .ham i{
