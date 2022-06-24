@@ -4,7 +4,7 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif; 
+    font-family: 'Ubuntu', sans-serif;
 }
 body{
     /* min-height: 100vh; */
@@ -35,7 +35,7 @@ html{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-} 
+}
 nav{
     height: 8rem;
     display: flex;
@@ -54,7 +54,7 @@ nav .ham i{
     font-size: 2rem;
     cursor: pointer;
     display: none;
-  
+
 }
 .logo{
     color: #fff;
@@ -68,11 +68,11 @@ nav ul{
 
         /* background: #000;
         opacity: 0.4; */
-   
+
 }
 nav ul li{
     margin: 0rem 1.5rem;
-    
+
     /* border-radius: 5px solid green; */
 
     /* li stands for links */
@@ -88,7 +88,7 @@ nav ul li a{
     font-weight: bold;
     letter-spacing: 1px;
 }
- 
+
 nav ul li a:hover{
 	/* font-size: larger; */
     color: black;
@@ -106,13 +106,13 @@ nav ul li a:hover{
     align-items: center;
     justify-content: center;
     margin: auto;
-    height: 90vh;   
+    height: 90vh;
     flex-direction: column;
     text-align: center;
     border-bottom: 2px solid #F4F5FF;
     transition: all 0.3 ease;
 }
-   
+
     .profile h1{
     font-size: 3.5rem;
     align-items: center;
@@ -165,9 +165,9 @@ section{
     flex-wrap: wrap;
     /* justify-content: space-around; */
     flex-direction: column;
- 
+
 }
-    
+
     footer{
 
     font-family: Ubuntu, sans-serif;
@@ -175,14 +175,32 @@ section{
     width: 100%;
     font-size: 18px;
     height: 30vh;
-    
+
 }
-.socialmedia{
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-    padding: 2rem;
-    /* background-color: black; */
+
+
+.socialmedia,.contact{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 2rem;
+  color: white;
+  justify-content: space-between;
+}
+.row {
+  display: flex;
+}
+.column {
+  flex: 33%;
+  padding: 10px;
+  height: 15rem;
+  text-align: center;
+  color: white;
+}
+.copyright{
+  text-align: center;
+  color: white;
+  background-color: #020304;
 }
 
 @media (max-width: 985px){
