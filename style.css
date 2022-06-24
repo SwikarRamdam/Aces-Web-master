@@ -11,10 +11,10 @@ body{
     width: 100%;
     overflow-x:hidden ;
     /* overflow:hidden ; */
-    background-image: url('pic/bg.jpg');
+    /* background-image: url('pic/bg.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center; */
 }
 
 html{
@@ -22,7 +22,7 @@ html{
     scroll-behavior: smooth;
 }
 .main{
-    height: 250vh;
+    height: 330vh;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -107,11 +107,11 @@ nav ul li a:hover{
     color: #F4F5FF;
 }
 section{
-    /* height: 200vh; */
+    height: 100vh;
     width: 100%;
     /* border-bottom: 2px solid #F4F5FF; */
     display: flex;
-    margin-bottom: 15rem;
+    margin-bottom: -15rem;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -132,6 +132,21 @@ section{
     transition: all 0.3 ease;
 }
 
+.tm{
+    width: 76rem;
+    height: 22rem;
+    border-top: 2px solid #F4F5FF;
+    max-width: 95%;
+    margin: 15px auto;
+    display: flex;
+    font-size: 2rem;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    color: #F4F5FF;
+    transition: all 0.3 ease;
+    /* border:2px solid red; */
+}
 .logo2{
     width: 30rem;
 }
@@ -142,9 +157,9 @@ section{
     flex-direction: column;
 
 }
-#testionial .about-text p{
+/* #testionial .about-text p{
     letter-spacing: 2px;
-}
+} */
     footer{
 
     font-family: Ubuntu, sans-serif;
@@ -224,6 +239,9 @@ section{
         flex: 1;
     }
     .about-text{
+        font-size: 1.5rem;
+    }
+    .tm{
         font-size: 1.5rem;
     }
     footer{
