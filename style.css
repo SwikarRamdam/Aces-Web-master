@@ -91,7 +91,7 @@ nav ul li a:hover{
     height: 90vh;
     flex-direction: column;
     text-align: center;
-    border-bottom: 2px solid #F4F5FF;
+    /* border-bottom: 2px solid #F4F5FF; */
     transition: all 0.3 ease;
 }
 
@@ -107,9 +107,9 @@ nav ul li a:hover{
     color: #F4F5FF;
 }
 section{
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
-    border-bottom: 2px solid #F4F5FF;
+    /* border-bottom: 2px solid #F4F5FF; */
     display: flex;
     align-items: center;
     justify-content: center;
