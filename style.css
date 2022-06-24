@@ -9,7 +9,7 @@
 body{
     width: 100%;
     overflow-x:hidden ;
-    background-image: url('pic/bg.jpg');
+    background-image: url('pic/bgs.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -22,7 +22,7 @@ html{
     height: 100%;
 }
 .main{
-    height: 250vh;
+    height: 100%;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -131,7 +131,6 @@ section{
     color: #F4F5FF;
     transition: all 0.3 ease;
 }
-<<<<<<< HEAD
 .about-texts{
     width: 76rem;
     height: 22rem;
@@ -147,9 +146,6 @@ section{
     transition: all 0.3 ease;
     font-style: italic;
 }
-=======
-
->>>>>>> 237dea0411c99c3bd0f25bce637749ccf11fa6a3
 .logo2{
     width: 30rem;
 }
