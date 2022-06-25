@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 
 * {
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Andika New Basic', sans-serif;
-  font-family: 'Inter', sans-serif;
-  font-family: 'Kdam Thmor Pro', sans-serif;
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Andika New Basic", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  font-family: "Oxygen", sans-serif;
 }
 
 body {
@@ -59,11 +59,11 @@ nav {
   padding: 0rem 5rem 0rem 10rem;
   position: sticky;
   top: 0;
-  border-bottom: 1px solid #F4F5FF;
+  border-bottom: 1px solid #f4f5ff;
 }
 
 nav .ham i {
-  color: #F4F5FF;
+  color: #f4f5ff;
   font-size: 2rem;
   cursor: pointer;
   display: none;
@@ -87,7 +87,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #F4F5FF;
+  color: #f4f5ff;
   text-decoration: none;
   font-size: 1.9rem;
   font-weight: bold;
@@ -120,16 +120,17 @@ nav ul li a:hover {
 .profile h1 {
   font-size: 3.5rem;
   align-items: center;
-  color: #F4F5FF;
+  color: #f4f5ff;
 }
 
 .profile h2 {
   font-size: 2.5rem;
-  color: #F4F5FF;
+  color: #f4f5ff;
 }
 
 section {
-  height: 100vh;
+  padding-top: 5rem;
+  height: 75%;
   width: 100%;
   display: flex;
   margin-bottom: -15rem;
@@ -144,12 +145,13 @@ section {
   max-width: 95%;
   margin: 15px auto;
   display: flex;
-  font-size: 2rem;
+  font-size: 18px;
   text-align: center;
   align-items: center;
   flex-direction: column;
-  color: #F4F5FF;
+  color: #f4f5ff;
   transition: all 0.3 ease;
+  height: 55vh;
 }
 
 .logo2 {
@@ -166,11 +168,11 @@ section {
 footer {
   bottom: 0px;
   width: 100%;
-  font-size: 18px;
-  letter-spacing: 1px;
+  font-size: 16px;
+  /* letter-spacing: 1px; */
 }
 
-.socialmedia{
+.socialmedia {
   display: flex;
   margin: 0;
   padding: 2rem;
@@ -184,27 +186,27 @@ footer {
 
 .column {
   flex: 33%;
-padding: 10px;
-height: 15rem;
-width: auto;
-text-align: center;
-color: white;
-overflow: hidden;
-word-wrap: break-word;
+  padding: 10px;
+  height: 15rem;
+  width: auto;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  word-wrap: break-word;
 }
 
 .copyright {
   text-align: center;
   color: white;
-  background-color: #1F4690;
+  background-color: #040303;
 }
-
 
 @media only screen and (min-width: 600px) {
   .about-text {
-    font-size: 1.5rem;
-    width: 60%
+    font-size: 16px;
+    width: 60%;
   }
+
   .logo2 {
     width: 17rem;
   }
@@ -212,15 +214,15 @@ word-wrap: break-word;
 
 @media only screen and (min-width: 768px) {
   .about-text {
-    font-size: 1.5rem;
-    width: 60%
+    font-size: 18px;
+    width: 60%;
+    height: 55vh;
   }
+
   .logo2 {
     width: 17rem;
   }
 }
-
-
 
 @media (max-width: 985px) {
   nav .ham i {
@@ -231,9 +233,8 @@ word-wrap: break-word;
     width: 15rem;
   }
 
-  #click:checked~.ham i:before {
+  #click:checked ~ .ham i:before {
     content: "\f00d";
-    ;
   }
 
   nav ul {
@@ -247,7 +248,7 @@ word-wrap: break-word;
     transition: all 0.3s ease;
   }
 
-  #click:checked~ul {
+  #click:checked ~ ul {
     left: 0%;
   }
 
@@ -275,14 +276,13 @@ word-wrap: break-word;
   .logo {
     flex: 1;
   }
-
-  .about-text {
-    font-size: 1.5rem;
-    width: 60%
+  .logo a {
+    font-size: 2.8rem;
   }
 
-  footer {
+  .about-text {
     font-size: 16px;
+    width: 60%;
   }
 
   .profile {
@@ -290,6 +290,6 @@ word-wrap: break-word;
   }
 
   section {
-    height: 150vh;
+    height: 190vh;
   }
 }
