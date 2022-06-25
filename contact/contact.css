@@ -152,7 +152,7 @@ h3.global-title {
 /* / title-styling */
 /* simple contact form */
 .contact-form {
-  background: rgb(255, 255, 255);
+  background: #2B2B2B;
 }
 
 .field {
@@ -168,7 +168,8 @@ h3.global-title {
 
 .form-mid form input,
 .form-mid form textarea {
-  background: #ff4c4c;
+  background: #2B2B2B;
+  /* background-color: #2B2B2B; */
   border: 2px solid rgba(0, 0, 0, 0);
   color: rgb(0, 0, 0);
   font-size: 16px;
@@ -196,9 +197,9 @@ button.btn-contact {
   font-size: 16px;
   padding: 15px 30px;
   margin: 20px auto 0;
-  color: #fff;
-  background: #ff4c4c;
-  border-color: #ff4c4c;
+  color: #2B2B2B;
+  background: ##2B2B2B;
+  border-color: ##2B2B2B;
   display: inline-block;
   font-weight: 400;
   text-align: center;

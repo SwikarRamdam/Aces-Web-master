@@ -1,184 +1,187 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
-*{
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif;
-}
-body{
-    width: 100%;
-    overflow-x:hidden ;
-    background-image: url('pic/bg.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    height: 100%;
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Andika New Basic', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-family: 'Oxygen', sans-serif;
 }
 
-html{
-    font-size: 62.5%;
-    scroll-behavior: smooth;
-    height: 100%;
-}
-.main{
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    margin: 0 auto;
-    background-image: url('pic/bg.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-}
-nav{
-    height: 8rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0rem 5rem 0rem 10rem;
-    position: sticky;
-    top: 0;
-    border-bottom: 1px solid #F4F5FF;
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0,0,0);
 }
 
-nav .ham i{
-    color: #F4F5FF;
-    font-size: 2rem;
-    cursor: pointer;
-    display: none;
-
-}
-.logo{
-    color: #fff;
-    font-size: 3.3rem;
-    font-weight: bold;
-    letter-spacing: 5px;
-}
-nav ul{
-    display: flex;
-    list-style: none;
-}
-nav ul li{
-    margin: 0rem 1.5rem;
+.bg-image {
+  background-image: url("pic/bg.jpg");
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-nav ul li a{
-    color: #F4F5FF;
-    text-decoration: none;
-    font-size: 1.9rem;
-    font-weight: bold;
-    letter-spacing: 1px;
-    padding: 5px;
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  height: 100%;
 }
 
-nav ul li a:hover{
-    color: black;
-    background-color: #fff;
-     border-radius: 5px;
-	transition:all 0.1s ease;
-}
-#click{
-    display:none;
-}
-
-.profile{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    height: 90vh;
-    flex-direction: column;
-    text-align: center;
-    /* border-bottom: 2px solid #F4F5FF; */
-    transition: all 0.3 ease;
+.main {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
 }
 
-    .profile h1{
-    font-size: 3.5rem;
-    align-items: center;
-    color: #F4F5FF;
-
-}
-
-.profile h2{
-    font-size: 2.5rem;
-    color: #F4F5FF;
-}
-section{
-    height: 100vh;
-    width: 100%;
-    /* border-bottom: 2px solid #F4F5FF; */
-    display: flex;
-    margin-bottom: -15rem;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.about-text{
-    width: 76rem;
-    height: 22rem;
-    border-top: 2px solid #F4F5FF;
-    max-width: 95%;
-    margin: 15px auto;
-    display: flex;
-    font-size: 2rem;
-    text-align: center;
-    align-items: center;
-    flex-direction: column;
-    color: #F4F5FF;
-    transition: all 0.3 ease;
-}
-.about-texts{
-    width: 76rem;
-    height: 22rem;
-    border-top: 2px solid #F4F5FF;
-    max-width: 95%;
-    margin: 15px auto;
-    display: flex;
-    font-size: 2rem;
-    text-align: center;
-    align-items: center;
-    flex-direction: column;
-    color: rgb(255,255,255);
-    transition: all 0.3 ease;
-    font-style: italic;
-}
-.logo2{
-    width: 30rem;
-}
-.more{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-
-}
-
-    footer{
-
-    font-family: Ubuntu, sans-serif;
-    bottom: 0px;
-    width: 100%;
-    font-size: 18px;
-    height: 30vh;
-
-}
-
-
-.socialmedia,.contact{
+nav {
+  height: 8rem;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  padding: 0rem 5rem 0rem 10rem;
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid #F4F5FF;
+}
+
+nav .ham i {
+  color: #F4F5FF;
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+}
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 3.3rem;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0rem 1.5rem;
+}
+
+nav ul li a {
+  color: #F4F5FF;
+  text-decoration: none;
+  font-size: 1.9rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 5px;
+}
+
+nav ul li a:hover {
+  color: black;
+  background-color: #fff;
+  border-radius: 5px;
+  transition: all 0.1s ease;
+}
+
+#click {
+  display: none;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 90vh;
+  flex-direction: column;
+  text-align: center;
+  transition: all 0.3 ease;
+}
+
+.profile h1 {
+  font-size: 3.5rem;
+  align-items: center;
+  color: #F4F5FF;
+}
+
+.profile h2 {
+  font-size: 2.5rem;
+  color: #F4F5FF;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  margin-bottom: -15rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-text {
+  width: 50%;
+  letter-spacing: 1px;
+  max-width: 95%;
+  margin: 15px auto;
+  display: flex;
+  font-size: 2rem;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  color: #F4F5FF;
+  transition: all 0.3 ease;
+}
+
+.logo2 {
+  width: 30rem;
+}
+
+.more {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+footer {
+  bottom: 0px;
+  width: 100%;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.socialmedia, .contact {
+  display: flex;
   margin: 0;
   padding: 2rem;
   color: white;
   justify-content: space-between;
 }
+
 .row {
   display: flex;
 }
+
 .column {
   flex: 33%;
   padding: 10px;
@@ -186,62 +189,76 @@ section{
   text-align: center;
   color: white;
 }
-.copyright{
+
+.copyright {
   text-align: center;
   color: white;
-  background-color: #020304;
+  background-color: #1F4690;
 }
 
-@media (max-width: 985px){
+@media (max-width: 985px) {
+  nav .ham i {
+    display: block;
+  }
 
-    nav .ham i{
-        display: block;
-    }
-    .logo2{
-        width: 20rem;
-    }
-    #click:checked ~ .ham i:before{
-        content: "\f00d";;
-    }
-    nav ul{
-        position: fixed;
-        top: 8rem;
-        left: -100%;
-        height: 30vh;
-        width: 100%;
-         display: block;
-         text-align: center;
-         transition: all 0.3s ease;
-    }
-    #click:checked ~ ul{
-        left: 0%;
-    }
-    nav ul li{
-        margin: 2rem 0;
-    }
-    nav ul li a{
-        font-size:2rem ;
-        display: block;
-    }
-    nav .ham i{
-        display: block;
-    }
-    .profile h1{
-        font-size: 2.5rem;
-    }
-    .profile h2{
-        font-size: 1.8rem;
-    }
-    .logo{
-        flex: 1;
-    }
-    .about-text{
-        font-size: 1.5rem;
-    }
-    .tm{
-        font-size: 1.5rem;
-    }
-    footer{
-        font-size: 15px;
-    }
+  .logo2 {
+    width: 20rem;
+  }
+
+  #click:checked~.ham i:before {
+    content: "\f00d";
+    ;
+  }
+
+  nav ul {
+    position: fixed;
+    top: 8rem;
+    left: -100%;
+    height: 30vh;
+    width: 100%;
+    display: block;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+
+  #click:checked~ul {
+    left: 0%;
+  }
+
+  nav ul li {
+    margin: 2rem 0;
+  }
+
+  nav ul li a {
+    font-size: 2rem;
+    display: block;
+  }
+
+  nav .ham i {
+    display: block;
+  }
+
+  .profile h1 {
+    font-size: 2.5rem;
+  }
+
+  .profile h2 {
+    font-size: 1.8rem;
+  }
+
+  .logo {
+    flex: 1;
+  }
+
+  .about-text {
+    font-size: 1.5rem;
+  }
+
+  .tm {
+    font-size: 1.5rem;
+  }
+
+  footer {
+    font-size: 15px;
+  }
 }

@@ -4,13 +4,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
+
 }
 body{
     background-color: #1b1f22d9;
     font-size: 62.5;
     scroll-behavior: smooth;
-    font-family: 'Ubuntu', sans-serif; 
+    font-family: 'Ubuntu', sans-serif;
 
 }
 .main{
@@ -19,8 +19,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color:rgba(27, 31, 34, 0.85); */
-    background-image: url(/pic/bg.jpg);
+    background-color:#362222;
+    background-image: url(pic/bg.jpg);
     background-size: 100% 100%;
 }
 
@@ -47,7 +47,7 @@ body{
     flex-direction: column;
     transform: translate(-50%, -50%);
     border-radius: 10px;
-    display: flex; 
+    display: flex;
     align-items: center;
     justify-content: center;
     background-size: 100% 100%;
@@ -80,7 +80,7 @@ text-align: center;
 #haces3{
     display: none;
     animation: aces4 9s infinite ease;
-    
+
 }
 #paces3{
     display: none;
@@ -95,13 +95,13 @@ text-align: center;
     animation: aces3 9s infinite ease;
 } */
 
-  
+
 
 @keyframes slider{
     0%{
         background-image: url(pics/pahilopaila.jpg);
 
-       
+
      }
     35%{
         background-image: url(pics/aces4.0.jpg);
@@ -111,7 +111,7 @@ text-align: center;
         background-image: url(pics/aces3.0.jpg)
 
     }
-    
+
 }
 /* @keyframes pahilo{
     0%{
@@ -122,8 +122,8 @@ text-align: center;
     /* } */
     /* 75%{
         /* display: block; */
-    /* } 
-/* } 
+    /* }
+/* }
 */
 @media (max-width:985px){
     .container h1{
