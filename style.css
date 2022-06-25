@@ -40,8 +40,8 @@ html {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.4);
+  /* background-color: rgb(0, 0, 0); */
+  /* background-color: rgba(0, 0, 0, 0.4); */
   color: white;
   font-weight: bold;
   position: absolute;
@@ -212,7 +212,7 @@ footer {
   }
 }
 
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
   .about-text {
     font-size: 18px;
     width: 60%;
@@ -222,7 +222,7 @@ footer {
   .logo2 {
     width: 17rem;
   }
-}
+} */
 
 @media (max-width: 985px) {
   nav .ham i {
