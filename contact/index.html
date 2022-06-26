@@ -1,41 +1,123 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Contact Us</title>
-    <link rel="stylesheet" href="contact.css">
-  </head>
-  <body>
-    <section class="w3l-simple-contact-form1">
-    <div class="contact-form section-gap">
-      <div class="wrapper">
-        <div class="text-center">
-        <h1 style="font-size: 30px;color:rgb(255,255,255); font-style: "Sofia", sans-serif;" >Contact Us</h1><br>
-      </div>
-        <div class="contact-form" style="max-width: 600px; margin: 0 auto;max-height: 600px; margin: 0 auto;"Trirong", serif;">
-          <div class="form-mid">
-            <form action="" method="post">
-              <div class="field">
-                <input type="text" class="form-control" name="Name" id="Name" placeholder="Name" required="">
-              </div>
-              <div class="field">
-                <input type="Emailaddress" class="form-control" name="Sender" id="Sender" placeholder="Emailaddress"
-                  required="">
-              </div>
-              <div class="field">
-                <input type="text" class="form-control" name="Subject" id="Subject" placeholder="Subject"
-                  required="">
-              </div>
-              <textarea name="Composeemail" class="form-control" id="Composeemail" placeholder="Composeemail"
-                required=""></textarea>
-              <button type="submit" class="btn btn-contact">Send Email</button>
 
-            </form>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CONTACT ACES</title>
+  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  /*importing font*/
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Andika+New+Basic&family=Inter:wght@300&family=Kdam+Thmor+Pro&family=Oxygen&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="main" id="main">
+    <nav>
+      <div class="logo"> <a href="#">ACES</a>
+      </div>
+      <input type="checkbox" id="click">
+      <label for="click" class="ham">
+        <i class="fas fa-bars" style="color:rgb(255, 255, 255);"></i>
+      </label>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="member/index.html">Committee</a></li>
+        <li><a href="events/index.html">Events</a></li>
+        <li><a href="contact/index.html">Contact Us</a></li>
+        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScsDzW8R2PB90au2NMUzf2UpnDiWeHmd1oCzbhYgsrEAijMYg/viewform">Register</a>
+        </li>
+      </ul>
+
+    </nav>
+    <section id="contact">
+
+      <h1 class="section-header">Contact</h1>
+
+      <div class="contact-wrapper">
+
+        <!-- Left contact page -->
+
+        <form id="contact-form" class="form-horizontal" role="form">
+
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  </body>
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+            </div>
+          </div>
+
+          <textarea style="height:15rem;" class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+
+          <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+            <div class="alt-send-button">
+              <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+            </div>
+
+          </button>
+
+        </form>
+
+        <!-- Left contact page -->
+
+        <div class="direct-contact-container">
+
+          <ul class="contact-list">
+            <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Purwanchal campus, Dharan</span></i></li>
+
+            <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></i></li>
+
+            <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">acesnepal@gmail.com</a></span></i></li>
+
+          </ul>
+
+          <hr>
+          <ul class="social-media-list">
+            <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fa fa-github" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fa fa-codepen" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+          <hr>
+<br>
+          <div class="copyright">&copy; ACES 2022</div>
+
+        </div>
+
+      </div>
+
+    </section>
+    <footer class="footer">
+
+
+      <p style="text-align:center;"><strong>CONNECT WITH US</strong></p><br>
+      <div class="socialmedia">
+        <a href="#" <i class="fa fa-facebook-official" aria-hidden="true" style="font-size:30px;color:blue;"></i></a>
+        <a href="#" <i class="fa fa-instagram" aria-hidden="true" style="font-size:30px;color:red;"></i></a>
+        <a href="#" <i class="fa fa-twitter" aria-hidden="true" style="font-size:30px;color:lightblue;"></i></a><br><br>
+      </div>
+      <div class="copyright"><br>
+        <p>Designed and developed by<br><em>Sampat and Swikar</em> </p>
+        <p><strong>&#9400; 2022</strong></p><br>
+      </div>
+    </footer>
+</body>
+
 </html>

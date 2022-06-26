@@ -1,19 +1,91 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
-
-*{
-  margin: 0;
+* {
+  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
 }
 
-body{
-  background-size: cover;
-  font-family: 'Ubuntu', sans-serif;
+body {
   width: 100%;
   height: 100%;
   background-color: rgb(0, 0, 0);
-  /* background-color: #3A5BA0; */
 }
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  margin: 0 auto;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+}
+
+nav {
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 5rem 0rem 10rem;
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid #f4f5ff;
+}
+
+nav .ham i {
+  color: #f4f5ff;
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+}
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 3.3rem;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  backdrop-filter: blur(20px);
+}
+
+nav ul li {
+  margin: 0rem 1.5rem;
+  backdrop-filter: blur(20px);
+}
+
+nav ul li a {
+  color: #f4f5ff;
+  text-decoration: none;
+  font-size: 1.9rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 5px;
+  backdrop-filter: blur(20px);
+}
+
+nav ul li a:hover {
+  color: black;
+  background-color: #fff;
+  border-radius: 5px;
+  transition: all 0.1s ease;
+}
+
+#click {
+  display: none;
+}
+
 
 .wrapper{
   margin-top: 40px;
@@ -22,16 +94,12 @@ body{
 .wrapper h1{
   font-family: 'Ubuntu', sans-serif;
   font-size: 50px;
-  /* margin-top: 100px; */
   margin-bottom: 80px;
   text-align: center;
   color: #F4F5FF;
-  /* border-bottom: 2px solid #F4F5FF; */
-
 }
 
 .team{
-  /* border: 2px solid red; */
   display: flex;
   justify-content: center;
   width: auto;
@@ -47,7 +115,6 @@ body{
   padding: 5px;
   border-radius: 20px;
   line-height: 25px;
-  /* color: rgb(142, 139, 139); */
   position: relative;
 }
 
@@ -82,5 +149,104 @@ body{
   width: 100px;
   height: 100px;
   padding: 5px;
+
+}
+footer {
+  bottom: 0px;
+  width: 100%;
+  font-size: 16px;
+  /* letter-spacing: 1px; */
+}
+
+.socialmedia {
+  display: flex;
+  margin: 0;
+  padding: 2rem;
+  color: white;
+  justify-content: space-between;
+}
+.socialmedia a{
+  text-decoration: none;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33%;
+  padding: 10px;
+  height: 15rem;
+  width: auto;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.copyright {
+  text-align: center;
+  color: white;
+  background-color: #040303;
+}
+
+@media only screen and (min-width: 600px) {
+
+  .logo2 {
+    width: 17rem;
+  }
+  nav ul{
+    backdrop-filter: blur(20px);
+  }
+}
+
+
+@media (max-width: 985px) {
+  nav .ham i {
+    display: block;
+  }
+
+  .logo2 {
+    width: 15rem;
+  }
+
+  #click:checked ~ .ham i:before {
+    content: "\f00d";
+  }
+
+  nav ul {
+    position: fixed;
+    top: 8rem;
+    left: -100%;
+    height: 30vh;
+    width: 100%;
+    display: block;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+
+  #click:checked ~ ul {
+    left: 0%;
+  }
+
+  nav ul li {
+    margin: 2rem 0;
+  }
+
+  nav ul li a {
+    font-size: 2rem;
+    display: block;
+  }
+
+  nav .ham i {
+    display: block;
+  }
+
+  .logo {
+    flex: 1;
+  }
+  .logo a {
+    font-size: 2.8rem;
+  }
 
 }
